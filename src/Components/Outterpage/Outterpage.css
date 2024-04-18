@@ -1,0 +1,73 @@
+navbar{
+    display:flex;
+}
+
+
+.left img{
+    width:65px;
+    height: 50px;
+}
+.right{
+    margin-left: 1050px;
+    margin-top: 17px;
+}
+.right i {
+    margin-right: 20px; 
+    font-size: 25px;
+}
+
+.one{
+    margin-left: 100px;
+    align-items: center;
+    gap:10px;
+   
+}
+.one i{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.one img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px; 
+}
+
+.Red{
+  margin-top: 170px;
+  margin-left: 70px;
+  display: flex;
+}
+hr{
+    width:540px;
+}
+
+.red1 p{
+    line-height: 0.5;
+    color: rgb(85, 81, 81);
+    margin-top: 20px;
+}
+
+.red2{
+    margin-top: 30px;
+}
+.red2 input[type='search'] {
+    margin-right: 20px; 
+}
+.red1 p span{
+    color: blue;
+}
+
+.green img{
+   border-radius: 50%;
+    width: 250px;
+    height: 200px;
+    margin-left: 400px;
+}
+.green h4{
+    margin-left: 430px;
+}
+.green p{
+    margin-left: 350px;
+    line-height: 0.5;
+    margin-top: 20px;
+}
