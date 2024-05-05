@@ -21,6 +21,7 @@ navbar{
     margin-right: 20px; 
     font-size: 25px;
     color: rgb(90, 88, 88);
+    cursor: pointer;
 }
 
 .one{
@@ -34,13 +35,14 @@ navbar{
     color: rgb(90, 88, 88);
     position: relative;
     top: 5px;
+    cursor: pointer;
 }
 .one img{
     width: 45px;
     height: 45px;
     margin-left: 10px; 
     align-items: center;
-   
+   cursor: pointer;
 }
 
 
@@ -115,7 +117,7 @@ hr{
     display: flex;
  }
  .left h4{
-    color:rgb(48, 49, 51);
+    color:rgb(113, 114, 114);
  }
  .re{
     margin-bottom: 30px;
@@ -127,3 +129,92 @@ hr{
     margin-top: 40px;
 
  }
+ 
+
+ 
+@media screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .right {
+      margin-left: 10px;
+      margin-top: 10px;
+     
+    }
+  
+    .right i {
+     display: none;
+    }
+  
+    .one {
+      margin-left: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .one i {
+      display: none;
+    }
+  
+    .one img {
+      margin-left: 20px;
+    }
+  
+    .Red {
+      margin-top: 50px;
+      margin-left: 14px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .red1 h1 {
+      font-size: 22px;
+      text-align: center;
+    }
+  
+    .red1 p {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 12px;
+    }
+  
+    .red2 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .learn{
+        display: none;
+    }
+  
+    .red2 input[type='search'] {
+      margin-right: 0;
+      width: 40%;
+      margin-bottom: 10px;
+    }
+  
+    .red1 p span {
+      display: block;
+      text-align: center;
+    }
+  
+    .green img {
+      margin-left: 19px;
+      margin-bottom: 20px;
+    }
+  
+    .green h4,
+    .green p {
+      text-align: center;
+      margin-left: 0;
+     
+    }
+    .green p{
+        font-size: 12px;
+    }
+  }
+  

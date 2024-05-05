@@ -29,7 +29,7 @@ const Outterpage = () => {
                 <div className='right'>
                 <p>{currentDate}</p>
                     <i class="fa-solid fa-circle-info"></i>
-                    <i class="fa-regular fa-flag"></i>
+                    <i class="fa-solid fa-flag"></i>
                     <i class="fa-solid fa-gear"></i>
 
                 </div>
@@ -52,6 +52,7 @@ const Outterpage = () => {
                     <p>Go meet provides secure, easy to use video calls and</p>
                     <p>meeting for everyone, on any device.</p>
                     <div className='red2'>
+                      
                         <input type='search' placeholder='Enter a Code or Link' onChange={(event)=>setRoomid(event.target.value)}></input>
                        
                         <button type="button" class="btn btn-light"onClick={()=>navigationafterclick()}>Join</button>
