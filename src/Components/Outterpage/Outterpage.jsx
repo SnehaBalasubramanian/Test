@@ -52,9 +52,9 @@ const Outterpage = () => {
                     <p>Go meet provides secure, easy to use video calls and</p>
                     <p>meeting for everyone, on any device.</p>
                     <div className='red2'>
-                      
-                        <input type='search' placeholder='Enter a Code or Link' onChange={(event)=>setRoomid(event.target.value)}></input>
                        
+                        <input type='search' placeholder='Enter a Code or Link' onChange={(event)=>setRoomid(event.target.value)}></input>
+                      
                         <button type="button" class="btn btn-light"onClick={()=>navigationafterclick()}>Join</button>
 
                     </div>
