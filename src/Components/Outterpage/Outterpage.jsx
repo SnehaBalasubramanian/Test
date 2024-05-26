@@ -64,7 +64,7 @@ const Outterpage = () => {
                 </div>
                 <div className='green'>
                       <img src='https://c8.alamy.com/comp/2D5TMPC/online-conference-distance-education-web-courses-or-business-meeting-with-manager-online-distance-education-characters-vector-illustration-2D5TMPC.jpg' alt=''/>
-                      <h4>Your meet is safe</h4>
+                      <h3>Your meet is safe</h3>
                       <p>No one can join the unless invite or admitted by the host</p>
                       
                 </div>
